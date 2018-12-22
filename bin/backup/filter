@@ -1,0 +1,19 @@
+/lost+found
+/backup/*
+/dev/*
+/proc/*
+/sys/*
+/tmp/*
+/run/*
+/mnt/*
+/media/*
+/home/*/.cache/*
+/home/*/.local/share/Trash/*
+/home/*/.thumbnails/*
+/home/*/.thunderbird/*.default/ImapMail/*
+/home/*/VirtualBox VMs/*
+/home/**/Steam/steamapps/common/*
+/home/**/Steam/steamapps/downloading/*
+/var/cache/pacman/pkg/*
+/var/lib/aurbuild/*
+/var/lib/docker/*

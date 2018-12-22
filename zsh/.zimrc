@@ -3,7 +3,8 @@
 zmodules=(autosuggestions directory environment git git-info history input utility custom \
           prompt completion syntax-highlighting history-substring-search )
 
-zprompt_theme='spaceship'
+#zprompt_theme='spaceship'
+zprompt_theme='steeef'
 
 # Set an optional host-specific filename for the completion cache file. If none
 # is provided, the default '.zcompdump' is used.

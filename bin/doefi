@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo efibootmgr -b 0000 -B
+sudo efibootmgr -b 0000 -c -d /dev/nvme0n1 -p 2 -L "Arch Linux" -l /vmlinuz-linux -u \
+  'root=/dev/nvme0n1p5 resume=/dev/nvme0n1p6 rw quiet nowatchdog vga=current vt.global_cursor_default=0 loglevel=3 rd.udev.log_priority=3 initrd=\intel-ucode.img initrd=\initramfs-linux.img'

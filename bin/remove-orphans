@@ -1,0 +1,7 @@
+#!/bin/sh
+pkgs=$(pacman -Qtdq)
+
+if [ ! -z "$pkgs" ]
+then
+  sudo pacman -Rns $pkgs
+fi

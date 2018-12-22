@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ ! -z "$1" ]; then
+  git clone ssh://aur@aur.archlinux.org/$1.git
+fi
+
