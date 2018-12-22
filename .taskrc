@@ -1,0 +1,6 @@
+data.location=~/.task
+verbose=blank
+nag=
+
+# Color theme
+include /usr/share/doc/task/rc/dark-blue-256.theme

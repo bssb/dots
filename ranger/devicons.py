@@ -1,0 +1,1 @@
+plugins/ranger_devicons/devicons.py
